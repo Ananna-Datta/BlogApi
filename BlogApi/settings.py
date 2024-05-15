@@ -31,6 +31,8 @@ ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = ['https://blogapi-x2hv.onrender.com','https://*.127.0.0.1']
 
 # Application definition
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_ALL_ORIGINS=True
 
 INSTALLED_APPS = [
     'django.contrib.admin',
